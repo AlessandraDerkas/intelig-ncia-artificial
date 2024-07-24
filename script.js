@@ -61,6 +61,7 @@ const perguntas = [
 ];
 let atual = 0;
 let perguntaAtual;
+let historiaFinal = "";
 
 function mostraPergunta(){
     perguntaAtual = perguntas [atual];
@@ -70,7 +71,16 @@ function mostraPergunta(){
 function mostraAlternativas(){
     for (const alternativa of perguntaAtual.alternativas){
         const botaoAlternativas = document.createElement("button");
-        botaoAlternativas.textContent = alternativa;
+        botaoAlternativas.textContent = alternativa.texto;
+        botaoAlternativas.addEventListener("click", () =>
+            respostaSelecionada(alternativa));
+            function respostaSelecionada (opcaoSelecionada){
+                const afirmacoes = opcaoSelecionada.afirmação;
+                historiaFinal = afirmaçoes;
+                atual++;
+                mostraPergunta();
+            }
+        );
         caixaAlternativas.appendChild(botaoAlternativas);
         }
 }
