@@ -29,8 +29,7 @@ const perguntas = [
             texto:"Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
             afirmação: "Afirmação 2"
         }
-        ],
-    
+        ]
     },
     {
         enunciado: "Depois que Gabriel escreveu o trabalho, teve uma discussão sobre o impacto da IA no trabalho do futuro o que Gabriel faz:",
