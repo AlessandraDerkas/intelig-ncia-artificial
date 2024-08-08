@@ -55,7 +55,7 @@ const perguntas = [
             texto"Criar uma imagem utilizando uma plataforma de design como o Paint.",
             afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
         }
-        ],
+        ]
     },
     {
         enunciado: "Gabriel tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que Gabriel faz? ",
@@ -71,6 +71,7 @@ const perguntas = [
         ]
     },
 ];
+
 
 let atual = 0;
 let perguntaAtual;
@@ -96,7 +97,7 @@ function mostraAlternativas(){
     }
 
 function respostaSelecionada (opcaoSelecionada){
-    const afirmacoes = opcaoSelecionada.afirmacao;
+    const afirmacoes = aleatorio (opcaoSelecionada.afirmacao);
     historiaFinal += afirmaçoes + "";
     atual++;
     mostraPergunta();
@@ -107,6 +108,10 @@ function mostraResultado (){
     caixaAlternativas,textContent = "";
 }
 
+function aleatorio (lista){
+    const posicao = Math.floor(Math.random()*lista.length);
+    return lista [posicao];
+}
 mostraPergunta();
 
 const lapis = {
