@@ -1,11 +1,11 @@
 import { aleatorio } from "./aleatorio.js";
 import { perguntas } from "./perguntas.js";
-const caixaPrincipal =  document.querySelector('.caixa-principal');
-const caixaPerguntas = document.querySelector('.caixa-perguntas');
-const caixaAlternativas = document.querySelector('.caixa-alternativas');
-const caixaResultados = document.querySelector('.caixa-resultados');
-const textoResultado = document.querySelector('.texto-resultado');
-
+const caixaPrincipal =  document.querySelector(".caixa-principal");
+const caixaPerguntas = document.querySelector(".caixa-perguntas");
+const caixaAlternativas = document.querySelector(".caixa-alternativas");
+const caixaResultados = document.querySelector(".caixa-resultados");
+const textoResultado = document.querySelector(".texto-resultado");
+const botaoJogarNovamente = document.querySelector("novamente-btn");
 const perguntas = [
     {
         enunciado: "Assim que saiu da escola Gabriel se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, o chat também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento de Gabriel?",
@@ -105,14 +105,22 @@ function respostaSelecionada (opcaoSelecionada){
     mostraPergunta();
 }
 function mostraResultado (){
-    caixaPerguntas.textContent = "Em 2049 ...";
+    caixaPerguntas.textContent = "Em 2049, ${nome}";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas,textContent = "";
+    caixaResultados.classList.add ("mostrar");
+    botaoJogarNovamente.addEventListener ("click",jogaNovamente);
 }
 
 function aleatorio (lista){
     const posicao = Math.floor(Math.random()*lista.length);
     return lista [posicao];
+}
+function jogaNovamente() {
+    atual = 0;
+    historiaFinal = "";
+    caixaResultados.classList.remove("mostrar");
+    mostraPergunta ();
 }
 mostraPergunta();
 
