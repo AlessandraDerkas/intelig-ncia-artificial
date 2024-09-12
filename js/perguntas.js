@@ -1,25 +1,25 @@
 export const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Navegando na web você encontra diversos posts, alguns conscientes outros preconceituosos. Qual papel você acha que a mídia tem na luta contra o preconceito?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "Informar e educar o público sobre diferentes culturas e experiências para promover empatia.",
                 afirmacao: [
-                    "No início ficou com medo do que essa tecnologia pode fazer. "
+                    "Ficou feliz com a utilidade da mídia. "
                 ],
                 proxima: 1,
                 },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "A mídia exerce apenas um papel negativo, pois há comentários maldosos, e pessoas sem senso. ",
                 afirmacao: [
-                    "Quis saber como usar IA no seu dia a dia."
+                    "Quis saber como usar a mídia para o bem."
                 ],
                 proxima: 2,
                 }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "No ambiente escolar se tornou normal presenciarmos o preconceito, o que é errado. O que você considera importante para combater o preconceito nesse ambiente?",
         alternativas: [
             {
                 texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
