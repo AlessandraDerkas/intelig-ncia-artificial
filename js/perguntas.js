@@ -19,29 +19,29 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "No ambiente escolar se tornou normal presenciarmos o preconceito, o que é errado. O que você considera importante para combater o preconceito nesse ambiente?",
+        enunciado: "A mídia auxiliou no processo para o ambiente escolar se tornar normal presenciarmos o preconceito, o que é errado. O que você considera importante para combater o preconceito nesse ambiente?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                texto: "Implementar treinamentos regulares sobre inclusão e diversidade para todos os funcionários.",
                 afirmacao: [
-                    "Conseguiu utilizar a IA para buscar informações úteis."
+                    "Conseguiu utilizar a mídia para buscar informações úteis."
                 ],
                 proxima: 3,
                 },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Aplicar penalidades severas para quem cometer atos preconceituosos, sem oferecer suporte educacional.",
                 afirmacao: [
-                    "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                    "Utilizou a mídia para buscar informações desnecessárias."
                 ],
                 proxima: 4,
                 }
         ]
     },
     {
-        enunciado: "Depois que você escreveu o trabalho, teve uma discussão sobre o impacto da IA no trabalho do futuro. O que você faz?",
+        enunciado: "Depois de aprender como a mídia influencia a sociedade, você presencia um ato preconceituoso em redes sociais. O que você faz?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Defende seus ideais, e impulsiona um cancelamento nas redes.",
                 afirmacao: [
                     "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
                 ],
