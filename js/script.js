@@ -4,7 +4,7 @@ import { perguntas } from './perguntas.js';
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
-const caixaResultados = document.querySelector(".caixa-resultados");
+const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 const botaoJogarNovamente = document.querySelector(".novamente-btn");
 const botaoIniciar = document.querySelector(".iniciar-btn");
@@ -61,7 +61,7 @@ function mostraResultado() {
     caixaPerguntas.textContent = `Em 2049, ${nome}`;
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
-    caixaResultados.classList.add("mostrar");
+    caixaResultado.classList.add("mostrar");
     botaoJogarNovamente.addEventListener("click", jogaNovamente);
 }
 
