@@ -57,7 +57,7 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "Após observar como o avanço da mídia impulsionou a IA e como isso trouxe malefícios em relação ao aumento significativo do preconceito, você acha que a mídia pode trazer informações relevantes visando trazer novas percepções nas mentes humanas, principalmente nos jovens, ocasionando uma diminuição dos atos preconceituosos?",
+        enunciado: "Após observar como o avanço da mídia impulsionou a IA e como isso trouxe malefícios em relação ao aumento significativo do preconceito, você acha que a mídia pode trazer informações relevantes visando trazer novas percepções nas mentes humanas, principalmente nos jovens, ocasionando uma diminuição dos atos preconceituosos. O que você pensa sobre?",
         alternativas: [
             {
                 texto: "Demonstro apoio à esse possível acontecimento.",
