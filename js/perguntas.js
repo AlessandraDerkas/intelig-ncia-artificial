@@ -57,34 +57,34 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Após observar como o avanço da mídia impulsionou a IA e como isso trouxe malefícios em relação ao aumento significativo do preconceito, você acha que a mídia pode trazer informações relevantes visando trazer novas percepções nas mentes humanas, principalmente nos jovens, ocasionando uma diminuição dos atos preconceituosos?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
+                texto: "Demonstro apoio à esse possível acontecimento.",
                 afirmacao: [
-                    "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                    "Se preocupa com o futuro da sociedade e através de mais atos generosos como esse uma evolução começa acontecer."
                 ],
                 proxima: 7,
                 },
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                texto: "Com o tamanho egoísmo presente nos dias atuais, não vejo uma possível mudança.",
                 afirmacao: [
-                    "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                    "Acha que o mundo já está perdido e nenhuma evolução será possível de ser vivenciada, a não ser a piora."
                 ],
                 proxima: 7,
                 }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Após a realização de novos posts sobre um ato de soliedariedade ao 'Diga NÂO ao preconceito' com o intuito de ocasionar uma evolução na humanidade, muitas pessoas se sentiram comovidas e decidiram mudar alguns hábitos. Através disso, o que você fez ao ver esses posts?",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "Me senti comovido e passei a mudar hábitos ruins que não agregavam em minha vida.",
+                afirmacao: "Entendeu perfeitamente o intuito dos posts e, a partir disso, se integrou na parte da população que mudou seus hábitos preconceituosos."
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "Não me senti comovido o suficiente, porém, passei a me alertar melhor sobre o assunto.",
+                afirmacao: "Percebeu que o bullying e falas preconceituosas podem trazer traumas nas vidas de quem sofre, e assim caminhará para uma pessoa que também mudará seus hábitos. "
             },
         ]
     },
