@@ -43,14 +43,14 @@ export const perguntas = [
             {
                 texto: "Defende seus ideais, e impulsiona um cancelamento nas redes.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                    "Percebe que nem sempre quem escreve coisas preconceituosas tem esse pensamento, mas é apenas uma vítima da influência negativa das mídias."
                 ],
                 proxima: 5,
                 },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Mostra seu opinião, e incentiva a mudança do pensamento que é preconceituoso. ",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                    "Sua preocupação com as pessoas que sofrem preconceitos diariamente lhe motivou a criar uma campanha subindo a #diganãoaopreconceito , onde concientiza e mostra relatos das vítimas."
                 ],
                 proxima: 6,
                 }
